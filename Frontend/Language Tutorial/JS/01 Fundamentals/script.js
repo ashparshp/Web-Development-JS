@@ -81,7 +81,6 @@ const smallNumber = false;
 console.log(largeNumber && smallNumber); // false (AND operator)
 console.log(largeNumber || smallNumber); // true (OR operator)
 console.log(!largeNumber); // false (NOT operator)
-*/
 
 // Switch statement
 const day = "monday";
@@ -125,3 +124,13 @@ if (day === "monday") {
   console.log("Not a valid day!");
 }
 
+// Ternary Operator
+const age = 23;
+age >= 18 ? console.log("I like to drink wine 🍷") : console.log("I like to drink water 💧");
+
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
+console.log(drink);
+
+// Using ternary operator inside template literals
+console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+*/
